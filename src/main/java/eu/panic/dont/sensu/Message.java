@@ -24,10 +24,6 @@ public class Message {
         this.handler = "flapjack";
     }
 
-    public Message(String name, String message) {
-        this(name, message, Status.CRITICAL);
-    }
-
     public String getName() {
         return name;
     }
